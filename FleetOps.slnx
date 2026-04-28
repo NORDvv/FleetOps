@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="FleetOps.Api/FleetOps.Api.csproj" />
+  <Project Path="FleetOps.Worker/FleetOps.Worker.csproj" />
+</Solution>

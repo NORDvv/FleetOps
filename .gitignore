@@ -1,0 +1,8 @@
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+fleetops_notes.md
+sideNotes.md
