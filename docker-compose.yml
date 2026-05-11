@@ -10,8 +10,11 @@ services:
     volumes:
       - pgdata:/var/lib/postgresql/data
   
-  rabbit:
+  rabbit:     ### http://localhost:15672
     image: rabbitmq:4-management
+    environment:
+      RABBITMQ_DEFAULT_USER: some_user
+      RABBITMQ_DEFAULT_PASS: some_password
     ports:
       - "5672:5672"
       - "15672:15672"
